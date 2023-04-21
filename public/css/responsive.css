@@ -176,4 +176,73 @@
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-top{width: 65px;height: 65px;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot{width: 65px;height: 65px;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot:after{display: none;}
+
+.honeycomb-cell{display: none;}
+.honeycomb-cell{
+    margin-bottom: 98px;
+}
+.honeycomb-cell:last-child{margin-bottom: 0px;}
+.ploy{margin: 0px;}
+.honeycomb-cell:nth-child(3) {
+  display: block!important;
+  min-width: 100%;
+  }
+  .content-bottom::before{height: 50px;bottom: -103px;}
+  .bottom-content-details{
+    min-width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .honeycomb-cell:nth-child(6) {
+    display: block!important;
+    min-width: 100%;
+    }
+    .honeycomb-cell:nth-child(9) {
+        display: block!important;
+        min-width: 100%;
+        }
+        .honeycomb-cell:nth-child(12) {
+            display: block!important;
+            min-width: 100%;
+            }
+            .honeycomb-cell:nth-child(15) {
+                display: block!important;
+                min-width: 100%;
+                }
+  .top-content{left: 0%;min-width: 100%;bottom: 0px;}
+  .content::before {
+    content: "";
+    color: #FC3F9A;
+    width: 8px;
+    height: 8px;
+    background: #FC3F9A;
+    position: absolute;
+    left: 49.6%;
+    border-radius: 100%;
+    top: 175px;
+}
+.honeycomb-cell::before, .honeycomb-cell::after, .honeycomb-cell_image {
+    top: -50%;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 200%;
+    /* display: block; */
+    position: absolute;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: -1;
+}
+.content::after {
+    content: "";
+    color: #004AB9;
+    width: 2px;
+    height:50px;
+    background: #004AB9;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+}
+.content-bottom::after{left: 49.6%;top: 185px;}
+.honeycomb-cell:nth-child(15).content-bottom::after{display: none;}
 }

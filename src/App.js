@@ -4,6 +4,7 @@ import Avtar from "./Component/Avtar";
 import FrontVideo from "./Component/FrontVideo";
 import HomeHeader from "./Component/HomeHeader";
 import SocialMedia from "./Component/SocialMedia";
+import Poly from "./Component/Poly";
 import Work from "./Component/Work";
 import gsap from "gsap";
 import { useEffect } from "react";
@@ -56,7 +57,8 @@ function App() {
       <HomeHeader />
       <FrontVideo />
       <SocialMedia />
-      <Work />
+<Poly/>
+      {/* <Work /> */}
       <Avtar />
       <SocialEslider />
       <Footer />
