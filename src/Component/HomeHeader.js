@@ -7,23 +7,24 @@ function HomeHeader() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("sticky").style.top = "0";
-            document.getElementById("sticky").style.background = "#0F234E";
+            document.getElementById("sticky").style.background = "transparent";
             // document.getElementById("desktop_logo").style.display = "none";
            
 
         } else {
             document.getElementById("sticky").style.top = "-80px";
             document.getElementById("sticky").style.background = "transparent";
-            document.getElementById("desktop_logo").style.display = "block";
-           
+            document.getElementById("desktop_logo").style.display = "none";
+            document.getElementById("mobile_logo").style.display = "block";
         }
         prevScrollpos = currentScrollPos;
 
 
         if (window.pageYOffset == 0) {
             document.getElementById("sticky").style.background = "transparent";
+            // document.getElementById("desktop_logo").style.display = "none"
             document.getElementById("desktop_logo").style.display = "block";
-            // document.getElementById("mobile_logo").style.display = "block";
+            document.getElementById("mobile_logo").style.display = "none";
         
 
         }
@@ -37,16 +38,16 @@ function HomeHeader() {
 
                             <div className='col-lg-12'>
                                 <div className='row' style={{ alignItems: 'center' }}>
-                                    <div className='col-lg-2 col-2 col-md-6'>
+                                    <div className='col-lg-2 col-6 col-md-6'>
                                         <div className='logo-section'>
                                             <a href='#'>
                                                 <img src={logo} alt="Logo" title='Logo' id="desktop_logo" className='desk'></img>
-                                                <img src={logo1} alt="Logo" title='Logo' className='mobile'></img>
+                                                <img src={logo1} alt="Logo" title='Logo' id="mobile_logo" className='mobile'></img>
                                                 {/* <img src={logo1} alt="Logo" title='Logo'  id="mobile_logo" className='single-logo'></img> */}
                                             </a>
                                         </div>
                                     </div>
-                                    <div className='col-lg-10 col-10 col-md-6'>
+                                    <div className='col-lg-10 col-6 col-md-6'>
                                         <div className='right-sec'>
                                             <ul>
                                                 <li>

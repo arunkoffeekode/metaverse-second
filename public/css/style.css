@@ -138,6 +138,7 @@
 .logo-section{width: 100%;position: relative;float: left;}
 .logo-section .single-logo{width: 50px;}
 .logo-section img{width: 160px;}
+.logo-section img.mobile{width: 50px;}
 .logo-section a{font-size: 30px;font-weight: normal;float: left;position: relative;font-family: 'Poppins', sans-serif;color: #ffffff;}
 #navbar {overflow: hidden;background: transparent;z-index: 999;position: absolute;width: 100%;top: 0;}
 #sticky {position: fixed; top: 0;left: 0;width: 100%;display: block;padding: 10px 15px 10px 15px;transition: top 0.7s;;}
@@ -187,7 +188,7 @@
 .social-media .man-section::after{content: "";width: 11px;height: 11px;background: #FC3F9A;position: absolute;top: 55px;left: 99px;border-radius: 100px;}
 .social-media .man-section::before{content: "";width: 11px;height: 11px;background: #FC3F9A;position: absolute;top: 55px;right: 99px;border-radius: 100px;}
 .social-media-footer{position: relative;width: 100%;margin-top: -119px;background: transparent;overflow: hidden;}
-.social-media-footer .air1{position: relative;bottom: 0;left: 0;width: 100%;    max-width: 1500px;min-height: 300px;margin: 0 auto;background: url(/images/wave.png);background-repeat: no-repeat;background-size: cover;display: flex;align-items: center;background-position: center bottom;}
+.social-media-footer .air1{position: relative;bottom: 0;left: 0;width: 100%;max-width: 1500px;min-height: 300px;margin: 0 auto;background: url(/images/wave.png);background-repeat: no-repeat;background-size: cover;display: flex;align-items: center;background-position: center bottom;}
 .social-media-footer::before{position: absolute;content: '';width: 100%;height: 100%;top: 0;z-index: 1;left: 0;background: linear-gradient(0deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 94.93%);opacity: 0.5;}
 
 
@@ -217,15 +218,27 @@
 
 .ps-timeline-sec .container-fluid ul.ps-timeline li h5 {text-align: center;margin: -30px 0 -40px 50px;font-weight: 700px;color: maroon;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span {width: 50px;height: 50px;margin-left: -25px;background: #fff;box-shadow: 0 0 0 0px #fff;text-align: center;line-height: 50px -10;color: #df8625;font-size: 2em;font-style: normal;position: absolute;top: -52px;left:43%;}
-.ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-top {border-image: linear-gradient(#FC3F9A, #004AB9) 30;border-width: 2px;border-style: solid;cursor: pointer;width: 100px;height: 100px;background-size: cover;background: #F3F3F3;}
+.ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-top { -webkit-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+  -moz-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);cursor: pointer;width: 112px;height: 112px;background-size: cover;background: #ffffff;box-shadow: rgb(0 51 175) 0px 34px 30px 2px inset, rgb(204 17 112) 0px 39px 113px -20px inset;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-top:hover{transition: 0.5s linear;background: rgb(227 151 188);border: 2px solid rgb(227 151 188);}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-top:before {content: "";color: #004AB9;width: 2px;height: 50px;background: #004AB9;position: absolute;top: -50px;left: 50%;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-top:after {content: "";color: #FC3F9A;width: 8px;height: 8px;background: #FC3F9A;position: absolute;bottom: 145px;left: 47%;border-radius: 100%;}
-.ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot {border-image: linear-gradient(#FC3F9A, #004AB9) 30;border-width: 2px;border-style: solid;cursor: pointer;width: 100px;height: 100px;background-size: cover;background: #F3F3F3;display: flex;align-items: center;padding: 7px;}
+.ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot {-webkit-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);
+  -moz-clip-path: polygon(92.32051% 40%, 93.79385% 43.1596%, 94.69616% 46.52704%, 95% 50%, 94.69616% 53.47296%, 93.79385% 56.8404%, 92.32051% 60%, 79.82051% 81.65064%, 77.82089% 84.50639%, 75.35575% 86.97152%, 72.5% 88.97114%, 69.3404% 90.44449%, 65.97296% 91.34679%, 62.5% 91.65064%, 37.5% 91.65064%, 34.02704% 91.34679%, 30.6596% 90.44449%, 27.5% 88.97114%, 24.64425% 86.97152%, 22.17911% 84.50639%, 20.17949% 81.65064%, 7.67949% 60%, 6.20615% 56.8404%, 5.30384% 53.47296%, 5% 50%, 5.30384% 46.52704%, 6.20615% 43.1596%, 7.67949% 40%, 20.17949% 18.34936%, 22.17911% 15.49361%, 24.64425% 13.02848%, 27.5% 11.02886%, 30.6596% 9.55551%, 34.02704% 8.65321%, 37.5% 8.34936%, 62.5% 8.34936%, 65.97296% 8.65321%, 69.3404% 9.55551%, 72.5% 11.02886%, 75.35575% 13.02848%, 77.82089% 15.49361%, 79.82051% 18.34936%);cursor: pointer;width: 112px;height: 112px;background-size: cover;background: #ffffff;display: flex;align-items: center;padding: 7px;box-shadow: rgb(0 51 175) 0px 34px 30px 2px inset, rgb(204 17 112) 0px 39px 113px -20px inset;}
+
+  .ps-timeline-sec .container-fluid ul.ps-timeline li .ps-bot:before {content: "";color: #004AB9;width: 2px;height: 50px;background: #004AB9;position: absolute;top: -54px;left: 55%;}
+  .ps-timeline-sec .container-fluid ul.ps-timeline li .ps-bot:after {content: "";color: #FC3F9A;width: 8px;height: 8px;background: #FC3F9A;position: absolute;top: -9px;left: 53.5%;border-radius: 100%;}
+
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot:hover{transition: 0.5s linear;background: rgb(227 151 188);border: 2px solid rgb(227 151 188);}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot:before {content: "";color: #004AB9;width: 2px;height: 50px;background: #004AB9;position: absolute;bottom: -50px;left: 50%;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li span.ps-sp-bot:after {content: "";color: #FC3F9A;width: 8px;height: 8px;background: #FC3F9A;position: absolute;bottom: -51px;left: 47%;border-radius: 100%;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li p {text-align: center;width: 100%;margin: 5 auto;}
+
+.ps-timeline-sec .container-fluid ul.ps-timeline li .ps-top:before {content: "";color: #004AB9;width: 2px;height: 50px;background: #004AB9;position: absolute;bottom: -70px;left: 54%;}
+.ps-timeline-sec .container-fluid ul.ps-timeline li .ps-top:after {content: "";color: #FC3F9A;width: 8px;height: 8px;background: #FC3F9A;position: absolute;bottom: -21px;left: 52.5%;border-radius: 100%;}
+
+
+
 .ps-timeline-sec .container-fluid ul.ps-timeline li h6{font-family: 'Rowdies';font-size: 13px;font-weight: 400;text-align: center;text-transform: uppercase;margin-bottom: 5px;color: #FC3F9A;line-height: 23px;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li p{font-family: 'Poppins', sans-serif;font-size: 13px;font-weight: normal;text-align: center;color: #353535;line-height: 22px;}
 .ps-timeline-sec .container-fluid ul.ps-timeline li .ps-top {position: absolute;bottom: 0;margin-bottom: 140px;}
