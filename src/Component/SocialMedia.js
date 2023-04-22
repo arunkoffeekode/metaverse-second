@@ -25,31 +25,31 @@ function SocialMedia() {
                                                         <div className='number'>1.</div>
                                                     </div>
                                                     <div className='social-det'>
-                                                        <h6 className='cursor-scale small'>Convenience:<br />
+                                                        <h6 className='cursor-scale small arrow-1'>Convenience:<br />
                                                             With a virtual date</h6>
                                                         <p className='cursor-scale small'>You can simply log in from the comfort of your own home and connect with your date from anywhere in the world.</p>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li className='mss'>
+                                            <li className='mss right'>
                                                 <div className='index'>
                                                     <div className='count'>
                                                         <div className='number'>2.</div>
                                                     </div>
                                                     <div className='social-det'>
-                                                        <h6 className='cursor-scale small'>Increased communication:<br />
+                                                        <h6 className='cursor-scale small arrow-2'>Increased communication:<br />
                                                             With a virtual date</h6>
                                                         <p className='cursor-scale small'>Virtual dates often involve more focused and intentional communication since you are not distracted by the environment or other people around you.</p>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li className='msl'>
+                                            <li className='msl right'>
                                                 <div className='index'>
                                                     <div className='count'>
                                                         <div className='number'>3.</div>
                                                     </div>
                                                     <div className='social-det'>
-                                                        <h6 className='cursor-scale small'>Cost-effective:<br />
+                                                        <h6 className='cursor-scale small arrow-3'>Cost-effective:<br />
                                                             With a virtual date</h6>
                                                         <p className='cursor-scale small'>less expensive than in-person dates since you don't have to pay for transportation, parking, or any other expenses associated with going out.</p>
                                                     </div>
@@ -65,11 +65,11 @@ function SocialMedia() {
                                 <div className='social-first-section col-md-6 order-lg-3 order-md-2 order-sm-2 d-none d-lg-block d-sm-none'>
                                     <div className='first-start'>
                                         <ul>
-                                            <li className='msr'>
+                                            <li className='msr left'>
                                                 <div className='index'>
 
                                                     <div className='social-det1'>
-                                                        <h6 className='cursor-scale small'>Creative options:<br />
+                                                        <h6 className='cursor-scale small arrow-4'>Creative options:<br />
                                                             With a virtual date</h6>
                                                         <p className='cursor-scale small'>You have a lot of creative options available to you, such as watching a movie together, playing games, or taking virtual tours of museums or art galleries.</p>
                                                     </div>
@@ -78,11 +78,11 @@ function SocialMedia() {
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li className='mssl'>
+                                            <li className='mssl left'>
                                                 <div className='index'>
 
                                                     <div className='social-det1'>
-                                                        <h6 className='cursor-scale small'>Safety:<br />
+                                                        <h6 className='cursor-scale small arrow-5'>Safety:<br />
                                                             With a virtual date</h6>
                                                         <p className='cursor-scale small'>In the midst of a pandemic or if you're simply not comfortable meeting someone in person yet, virtual dates are a safer option for getting to know someone.</p>
                                                     </div>
@@ -91,11 +91,11 @@ function SocialMedia() {
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li className='msr'>
+                                            <li className='msr left'>
                                                 <div className='index'>
 
                                                     <div className='social-det1'>
-                                                        <h6 className='cursor-scale small'>Flexibility:<br />
+                                                        <h6 className='cursor-scale small arrow-6'>Flexibility:<br />
                                                             With a virtual date</h6>
                                                         <p className='cursor-scale small'>You have more flexibility with virtual dates, as you can schedule them at a time that is convenient for both you and your date, regardless of time zones.</p>
                                                     </div>

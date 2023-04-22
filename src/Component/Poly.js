@@ -22,8 +22,8 @@ function Poly() {
                                     </li>
                                     <li class="honeycomb-cell frame1">
                                         <div className='top-content'>
-                                            <h6>Avatar interactions</h6>
-                                            <p>Once two users have established a connection users can interact with each other through their avatars in the metaverse. This might involve virtual activities together.</p>
+                                            <h6 class="cursor-scale small">Avatar interactions</h6>
+                                            <p class="cursor-scale small">Once two users have established a connection users can interact with each other through their avatars in the metaverse. This might involve virtual activities together.</p>
                                         </div>
                                         <div className='content'>
                                             <img src='images/avatar_interactions.png' className='honeycomb-cell_image' />
@@ -37,8 +37,8 @@ function Poly() {
                                     </li>
                                     <li class="honeycomb-cell frame1">
                                         <div className='top-content'>
-                                            <h6>Matching</h6>
-                                            <p>The dating app in the metaverse would use algorithms to match users based on their profile information and interactions with other users.</p>
+                                            <h6 class="cursor-scale small">Matching</h6>
+                                            <p class="cursor-scale small">The dating app in the metaverse would use algorithms to match users based on their profile information and interactions with other users.</p>
                                         </div>
                                         <div className='content'>
                                             <img src='images/matching.png' className='honeycomb-cell_image' />
@@ -52,8 +52,8 @@ function Poly() {
                                     </li>
                                     <li class="honeycomb-cell frame1">
                                         <div className='bottom-content-details'>
-                                            <h6>Creating a profile</h6>
-                                            <p>Users would create an avatar and set up a profile with information about themselves, such as their interests, hobbies, and relationship preferences.</p>
+                                            <h6 class="cursor-scale small">Creating a profile</h6>
+                                            <p class="cursor-scale small">Users would create an avatar and set up a profile with information about themselves, such as their interests, hobbies, and relationship preferences.</p>
                                         </div>
                                         <div className='content-bottom'>
                                             <img src='images/profile.png' className='honeycomb-cell_image' />
@@ -67,8 +67,8 @@ function Poly() {
                                     </li>
                                     <li class="honeycomb-cell frame1">
                                         <div className='bottom-content-details'>
-                                            <h6>Safety and awareness</h6>
-                                            <p>Will provide users with resources and educational materials on how to stay safe online. Users may have the ability to block other users. The app will provide a privacy feature that allows users to control who can see their profile and personal information.</p>
+                                            <h6 class="cursor-scale small">Safety and awareness</h6>
+                                            <p class="cursor-scale small">Will provide users with resources and educational materials on how to stay safe online. Users may have the ability to block other users. The app will provide a privacy feature that allows users to control who can see their profile and personal information.</p>
                                         </div>
                                         <div className='content-bottom'>
                                             <img src='images/safty.png' className='honeycomb-cell_image' />
@@ -80,8 +80,8 @@ function Poly() {
                                         <img src='images/poly-bg.png' className='honeycomb-cell_image' />
                                     </li> <li class="honeycomb-cell frame1">
                                         <div className='bottom-content-details'>
-                                            <h6>Integration with blockchain</h6>
-                                            <p>The dating app also integrates blockchain technology and wallets to facilitate payments and transactions between users. This could include the ability to purchase virtual gifts for others.</p>
+                                            <h6 class="cursor-scale small">Integration with blockchain</h6>
+                                            <p class="cursor-scale small">The dating app also integrates blockchain technology and wallets to facilitate payments and transactions between users. This could include the ability to purchase virtual gifts for others.</p>
                                         </div>
                                         <div className='content-bottom'>
                                             <img src='images/wallet.png' className='honeycomb-cell_image' />

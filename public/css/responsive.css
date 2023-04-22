@@ -245,4 +245,10 @@
 }
 .content-bottom::after{left: 49.6%;top: 185px;}
 .honeycomb-cell:nth-child(15).content-bottom::after{display: none;}
+.social-media .social-first-section .first-start ul li:nth-child(1):before{display: none;}
+.social-media .social-first-section .first-start ul li:nth-child(2):before{display: none;}
+.social-media .social-first-section .first-start ul li:nth-child(3):before{display: none;}
+.social-media .social-first-section .first-start ul li.left:nth-child(1)::after{display: none;}
+.social-media .social-first-section .first-start ul li.left:nth-child(2)::after{display: none;}
+.social-media .social-first-section .first-start ul li.left:nth-child(3)::after{display: none;}
 }
