@@ -9,7 +9,7 @@ function HomeHeader() {
             document.getElementById("sticky").style.top = "0";
             document.getElementById("sticky").style.background = "transparent";
             // document.getElementById("desktop_logo").style.display = "none";
-           
+
 
         } else {
             document.getElementById("sticky").style.top = "-80px";
@@ -25,7 +25,7 @@ function HomeHeader() {
             // document.getElementById("desktop_logo").style.display = "none"
             document.getElementById("desktop_logo").style.display = "block";
             document.getElementById("mobile_logo").style.display = "none";
-        
+
 
         }
     }

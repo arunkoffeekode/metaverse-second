@@ -22,7 +22,7 @@ function Work() {
                                             </div>
                                             
                                             <span class="ps-sp-top">
-                                                <img src="images/profile.png"/>
+                                                {/* <img src="images/profile.png"/> */}
                                             </span>
                                         </li>
                                         <li>

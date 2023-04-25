@@ -57,7 +57,7 @@ function App() {
       <HomeHeader />
       <FrontVideo />
       <SocialMedia />
-<Poly/>
+      <Poly />
       {/* <Work /> */}
       <Avtar />
       <SocialEslider />
